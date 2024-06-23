@@ -339,7 +339,7 @@ header ul li:nth-child(1) a {
   padding: 1.5rem 1rem;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-inline: 3rem;
 }
 
@@ -645,4 +645,16 @@ header ul li:nth-child(1) a {
   .contact .grp i {
     margin-right: 0 !important;
   }
+
+}
+
+::selection {
+  background: #14DB36;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #14DB36;
+  color: #fff;
+  text-shadow: none;
 }
